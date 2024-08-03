@@ -1,5 +1,7 @@
 <?php
 
+    include_once "php/conexao.php";
+
     echo "<p style='margin-top: 0px; color: #ffffff;'>Deus é Fiel</p>";
 
     $dataset = [
