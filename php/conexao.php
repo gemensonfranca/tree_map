@@ -1,9 +1,9 @@
 <?php
 
-$hostname = '127.0.0.1';
-$dbname   = 'treemap';
-$username = 'root';
-$password = 'Mysql2023@root';
+$hostname = 'db4free.net';
+$dbname   = 'banco_teste123';
+$username = 'bancoteste123';
+$password = 'teste1234';
 
 try {
     $conn = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);

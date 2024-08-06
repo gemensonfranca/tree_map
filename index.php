@@ -27,7 +27,7 @@
         }
     }
 
-    $stmt = $conn->prepare('SELECT * FROM itens_default');
+    $stmt = $conn->prepare('SELECT * FROM itens_default ORDER BY fonte2 DESC');
     $stmt->execute();
     $results = $stmt->fetchAll();
 
